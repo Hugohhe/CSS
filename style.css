@@ -1,0 +1,80 @@
+p {
+    color: blue;
+}
+
+.gras {
+    color: brown;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#titre {
+    font-size: 300px;
+    color: blueviolet;
+    color: red !important;
+}
+
+.div {
+    font-family: Arial, sans-serif;
+}
+
+.gras-italique {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#police {
+    font-size: 150px;
+}
+
+.backimg {
+    height: 200px;
+    background-image: url(../COURS1/assets/img/imagepanda.png);
+    background-color: yellow;
+
+}
+
+p#fondgris {
+    background-color: grey;
+}
+
+.degrader {
+    background: linear-gradient(blue, pink)
+}
+
+button:hover {
+    background-color: green;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color:gold;
+}
+
+a:active{
+    color:aquamarine
+}
+
+.multiple{
+    color: cornflowerblue;
+}
+
+#ultiple{
+    color: chartreuse;
+}
+
+div{
+    color: blueviolet;
+}
+
+style{
+    background-color: yellow;
+}
+
+img{
+    transform:rotate(45deg)
+}
