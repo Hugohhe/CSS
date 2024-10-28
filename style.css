@@ -9,7 +9,7 @@ p {
     font-size: 2em;
 }
 
-#titre {
+#titre{
     font-size: 300px;
     color: blueviolet;
     color: red !important;
@@ -40,6 +40,7 @@ p#fondgris {
 }
 
 .degrader {
+    height: 500px;
     background: linear-gradient(blue, pink)
 }
 
@@ -77,4 +78,70 @@ style{
 
 img{
     transform:rotate(45deg)
+    
 }
+
+.agrandir{
+    transform:scale(1.5);
+}
+
+.carre{
+    background-color: aquamarine;
+    width:200px;
+    height:200px;
+    transform:translate(50px,20px)
+}
+
+body{
+    background-color:black;
+}
+
+.rectangle{
+    background-color: orange;
+    width:200px;
+    height:400px;
+    transform:scaleX(2);
+    transform:scaleY(0.5);
+}
+
+.element{
+    transform: rotate(45deg) scale(1.2) translateX(30px);
+}
+
+
+.element:hover{
+    transform:rotate(15deg);
+}
+
+@keyframes animation{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+  .lol {
+    animation: animation 5s infinite;
+}
+
+@media (min-width: 1024px){
+    #titre2{
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width:768px){
+        #titre2{
+            font-size: 28px;
+        }
+    }
+
+@media (max-width: 768){
+    #titre2{
+        font-size: 20px;
+    }
+}
+
+
